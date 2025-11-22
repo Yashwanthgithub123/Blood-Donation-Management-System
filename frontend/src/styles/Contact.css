@@ -1,0 +1,113 @@
+/* Page Layout */
+.contact-page {
+  background: linear-gradient(135deg, #e6f2ff, #d0e7ff);
+  padding: 60px 20px;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.contact-page h1 {
+  color: #004080;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Intro Text */
+.contact-intro {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Container Layout */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Info & Form Cards */
+.contact-info,
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  width: 400px;
+  text-align: left;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-info:hover,
+.contact-form:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Section Headings */
+.contact-info h2,
+.contact-form h2 {
+  color: #004080;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.3rem;
+}
+
+/* Info Text */
+.contact-info p {
+  margin: 8px 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social {
+  font-size: 25px;
+  margin-right: 15px;
+  color: #004080;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social:hover {
+  color: #3399ff;
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Submit Button */
+.contact-form button {
+  background-color: #004080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #003366;
+}

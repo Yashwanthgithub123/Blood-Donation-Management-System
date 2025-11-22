@@ -1,0 +1,164 @@
+.finddonors-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #e6f2ff, #d0e7ff);
+}
+
+/* Title and Subtitle */
+.finddonors-title {
+  font-size: 2.5rem;
+  color: #003366;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.finddonors-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Filter Card */
+.filter-card {
+  max-width: 950px;
+  margin: 0 auto 40px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.filter-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Filter Header */
+.filter-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-icon {
+  font-size: 1.8rem;
+  color: #004080;
+  margin-right: 10px;
+}
+
+.filter-desc {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Input Groups */
+.filter-inputs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #003366;
+}
+
+.input-group select,
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Search Button */
+.search-btn {
+  background: #004080;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 64, 128, 0.3);
+  transition: all 0.3s;
+}
+
+.search-btn:hover {
+  background: #003366;
+}
+
+/* Map Button */
+.map-btn {
+  background: #ffffff;
+  color: #004080;
+  border: 2px solid #004080;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.map-btn:hover {
+  background: #e6f2ff;
+}
+
+/* Donor Results Grid */
+.donor-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Donor Card */
+.donor-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  background-color: #ffffff;
+}
+
+.donor-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Map Section */
+.map-container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.map-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #004080;
+}

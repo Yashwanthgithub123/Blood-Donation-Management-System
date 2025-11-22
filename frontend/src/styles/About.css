@@ -1,0 +1,117 @@
+/* Page Layout */
+.about-page {
+  background: linear-gradient(135deg, #e6f0ff, #d0e7ff);
+  padding: 60px 20px;
+  text-align: center;
+  color: #2c2c2c;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.about-page h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #004080;
+}
+
+.highlight {
+  color: #004080;
+}
+
+/* Intro Paragraph */
+.about-intro {
+  font-size: 1.1rem;
+  margin: 15px auto 40px;
+  max-width: 800px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Cards Section */
+.about-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+/* Individual Card */
+.about-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.about-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #004080;
+}
+
+.about-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Icons */
+.about-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.blue { color: #004080; }
+.sky { color: #3399ff; }
+.teal { color: #00b3b3; }
+
+/* Footer Section */
+.about-footer {
+  background-color: #004080;
+  color: white;
+  padding: 30px 25px;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-footer h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.about-footer p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.dev-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  .about-card {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .about-intro,
+  .about-footer {
+    padding: 20px;
+  }
+}

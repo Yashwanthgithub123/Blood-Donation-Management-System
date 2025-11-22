@@ -1,0 +1,18 @@
+.footer {
+  background-color: #ffffff;
+  color: #444c56;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer .footer-brand {
+  color: #004080;
+  font-weight: 600;
+}
+
+.footer .designer {
+  color: #004080;
+  font-weight: 600;
+}

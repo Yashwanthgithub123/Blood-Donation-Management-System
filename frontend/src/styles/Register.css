@@ -1,0 +1,173 @@
+/* Main Container */
+.register-container {
+  background-color: #e6f2ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Card */
+.register-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 750px;
+  text-align: center;
+}
+
+.blood-icon {
+  color: #004080;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.register-card h2 {
+  font-size: 26px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.2s ease;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  border-color: #004080;
+  outline: none;
+}
+
+label {
+  color: #444;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+/* Register Button */
+.register-btn {
+  background-color: #004080;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #003366;
+}
+
+/* ✅ MAP Section */
+.map-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.map-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #004080;
+  font-weight: bold;
+}
+
+.leaflet-container {
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.location-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* ✅ QR Modal */
+.qr-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 33, 33, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.qr-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.qr-content h3 {
+  margin-bottom: 15px;
+  color: #004080;
+}
+
+.qr-box {
+  background: #f0f8ff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  background: #004080;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.close-btn:hover {
+  background: #003366;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .register-card {
+    padding: 25px;
+  }
+
+  .map-section h3 {
+    text-align: center;
+  }
+}

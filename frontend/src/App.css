@@ -1,0 +1,13 @@
+/* src/App.css */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 80px; /* Prevent content hiding behind Navbar */
+  padding-bottom: 40px; /* Add space above footer */
+  background-color: #fff;
+}

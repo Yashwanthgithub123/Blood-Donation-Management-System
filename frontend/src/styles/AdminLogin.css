@@ -1,0 +1,64 @@
+/* Container */
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e6f2ff, #d0e7ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Login Card */
+.admin-login-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+/* Lock Icon */
+.lock-icon {
+  font-size: 2rem;
+  color: #004080;
+  margin-bottom: 1rem;
+}
+
+/* Input Fields */
+.admin-login-card input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Submit Button */
+.admin-login-card button {
+  margin-top: 1rem;
+  width: 100%;
+  background: #004080;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-card button:hover {
+  background: #003366;
+}
+
+/* Error Message */
+.error-message {
+  color: #cc0000;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}

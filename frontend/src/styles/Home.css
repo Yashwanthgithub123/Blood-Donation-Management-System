@@ -1,0 +1,79 @@
+/* Hero Section Layout */
+.hero-section {
+  background: linear-gradient(135deg, #e6f2ff, #d0e7ff);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Hero Heading */
+.hero-content h1 {
+  font-size: 48px;
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Hero Subtext */
+.hero-content p {
+  color: #444;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+/* Button Container */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Button Base */
+.btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+/* Donor Button */
+.btn-donor {
+  background-color: #004080;
+  color: #ffffff;
+}
+
+.btn-donor:hover {
+  background-color: #003366;
+}
+
+/* Find Button */
+.btn-find {
+  background-color: #ffffff;
+  border: 2px solid #004080;
+  color: #004080;
+}
+
+.btn-find:hover {
+  background-color: #e6f2ff;
+  color: #003366;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 80%;
+    max-width: 250px;
+  }
+}
